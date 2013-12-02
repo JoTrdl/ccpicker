@@ -17,11 +17,11 @@
     </div>
     <script>
       // direct
-      
-      $('#picker').ccpicker().on('change', function(e, color) {
-        console.log(color);
+      CCPicker(document.getElementById('picker'), {
+        callback: function(color) {
+          console.log(color);
+        }
       });
-
      /* jQuery
       $('#picker').ccpicker().on('change', function(e, color) {
         console.log(color);
