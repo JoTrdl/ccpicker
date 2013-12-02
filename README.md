@@ -19,7 +19,7 @@ CCPicker(document.getElementById('picker'), {
 });
 `
 
-If you prefer to use with jQuery :
+If you prefer jQuery :
 `
 $('#picker').ccpicker().on('change', function(e, color) {
   console.log(color);
